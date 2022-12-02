@@ -13,16 +13,16 @@ export class NoticeComponent implements OnInit {
 
   ngOnInit(): void {
     const noticeAnimation = gsap.timeline()
-    noticeAnimation.fromTo(".n1", 5, { left: "0" }, { left: "-574px", ease: "none", repeat: -1 })
-      .fromTo(".n2", 5, { left: "574px" }, { left: "0", ease: "none", repeat: -1 }, "-=5")
-      .fromTo(".n3", 5, { left: "1148px" }, { left: "574px", ease: "none", repeat: -1 }, "-=5")
-      .fromTo(".n4", 5, { left: "1722px" }, { left: "1148px", ease: "none", repeat: -1 }, "-=5")
-      .fromTo(".n5", 5, { left: "2296px" }, { left: "1722px", ease: "none", repeat: -1 }, "-=5")
-      .fromTo(".n6", 5, { left: "2870px" }, { left: "2296px", ease: "none", repeat: -1 }, "-=5")
-      .fromTo(".n7", 5, { left: "3444px" }, { left: "2870px", ease: "none", repeat: -1 }, "-=5")
-      .fromTo(".n8", 5, { left: "4018px" }, { left: "3444px", ease: "none", repeat: -1 }, "-=5")
-      .fromTo(".n9", 5, { left: "4592px" }, { left: "4018px", ease: "none", repeat: -1 }, "-=5")
-      .fromTo(".n10", 5, { left: "5166px" }, { left: "4592px", ease: "none", repeat: -1 }, "-=5")
+    noticeAnimation.fromTo(".n1", 10, { left: "0px" }, { left: "-533px", ease: "none", repeat: -1 })
+      .fromTo(".n2", 10, { left: "533px" }, { left: "0px", ease: "none", repeat: -1 }, "-=10")
+      .fromTo(".n3", 10, { left: "calc(533px * 2)" }, { left: "calc(533px * 1)", ease: "none", repeat: -1 }, "-=10")
+      .fromTo(".n4", 10, { left: "calc(533px * 3)" }, { left: "calc(533px * 2)", ease: "none", repeat: -1 }, "-=10")
+      .fromTo(".n5", 10, { left: "calc(533px * 4)" }, { left: "calc(533px * 3)", ease: "none", repeat: -1 }, "-=10")
+      .fromTo(".n6", 10, { left: "calc(533px * 5)" }, { left: "calc(533px * 4)", ease: "none", repeat: -1 }, "-=10")
+      .fromTo(".n7", 10, { left: "calc(533px * 6)" }, { left: "calc(533px * 5)", ease: "none", repeat: -1 }, "-=10")
+      .fromTo(".n8", 10, { left: "calc(533px * 7)" }, { left: "calc(533px * 6)", ease: "none", repeat: -1 }, "-=10")
+      .fromTo(".n9", 10, { left: "calc(533px * 8)" }, { left: "calc(533px * 7)", ease: "none", repeat: -1 }, "-=10")
+      .fromTo(".n10", 10, { left: "calc(533px * 9)" }, { left: "calc(533px * 8)", ease: "none", repeat: -1 }, "-=10")
   }
 
 }

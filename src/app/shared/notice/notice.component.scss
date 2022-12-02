@@ -1,12 +1,12 @@
 .notice-message {
     display: flex;
-    justify-content: space-evenly;
-    font-size: 19px;
+    justify-content: space-around;
+    font-size: 17px;
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    width: 574px;
+    min-width: 533px;
 
     fa-icon {
         color: white;
