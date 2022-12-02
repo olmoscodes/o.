@@ -1,0 +1,19 @@
+.notice-message {
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    min-width: 533px;
+
+    fa-icon {
+        color: white;
+    }
+
+    .msg2 {
+        font-family: 'Inter-ExtraLight';
+    }
+}
+
