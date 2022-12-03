@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { NoticeComponent } from './shared/notice/notice.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NoticeComponent
+    NoticeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
