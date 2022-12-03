@@ -7,7 +7,6 @@ body {
     height: 100vh; /* Fallback for browsers that do not support Custom Properties */
     height: calc(var(--vh, 1vh) * 100);
     overflow-y: scroll;
-    pointer-events: none;
 }
 
 // Temporal under construction in PRODUCTION (master)
@@ -17,13 +16,14 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 99999;
+    z-index: 1;
     background-color: rgba(0, 0, 0, 0.448);
     height: 100%;
     width: 100vw;
     backdrop-filter: blur(6px);
     color: white;
     font-size: 19px;
+    top: 0;
 }
 
 // Fonts 
@@ -80,4 +80,19 @@ app-notice {
     left: 0;
     overflow: hidden;
     width: 100vw;
+}
+
+app-cookies-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: red;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.448);
+    backdrop-filter: blur(6px);
+    z-index: 2;
 }
