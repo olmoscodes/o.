@@ -1,19 +1,27 @@
-.notice-message {
-    display: flex;
-    justify-content: space-around;
-    font-size: 17px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    min-width: 533px;
+.notice-container {
+    height: 50px;
+    background-color: #0C0C0C;
+    color: white;
+    min-width: 2000px;
 
-    fa-icon {
-        color: white;
+    .notice-message {
+        display: flex;
+        justify-content: space-around;
+        font-size: 17px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        min-width: 533px;
+    
+        fa-icon {
+            color: white;
+        }
+    
+        .msg2 {
+            font-family: 'Inter-ExtraLight';
+        }
     }
 
-    .msg2 {
-        font-family: 'Inter-ExtraLight';
-    }
 }
 
