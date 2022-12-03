@@ -6,6 +6,22 @@ body {
     position: relative;
 }
 
+// Temporal under construction in PRODUCTION (master)
+
+.under-construction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, 0.448);
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(6px);
+    color: white;
+    font-size: 2rem;
+}
+
 // Fonts 
 
 @font-face {
