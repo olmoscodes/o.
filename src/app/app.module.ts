@@ -7,12 +7,14 @@ import { NoticeComponent } from './shared/notice/notice.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { CookiesPopupComponent } from './shared/cookies-popup/cookies-popup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NoticeComponent,
-    NavbarComponent
+    NavbarComponent,
+    CookiesPopupComponent
   ],
   imports: [
     BrowserModule,
