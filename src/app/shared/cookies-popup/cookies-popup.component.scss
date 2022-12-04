@@ -1,5 +1,6 @@
 .cookies-box {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     background-color: white;
@@ -11,7 +12,7 @@
         width: 85vw;
     }
 
-    div {
+    .max-width {
         width: calc(100% - 50px)
     }
 
@@ -58,6 +59,20 @@
         .decline {
             background-color: #E7E7E7;
             color: black;
+        }
+    }
+
+    .logo-container {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+
+        .o {
+            border-color: black;
+        }
+
+        .dot {
+            background-color: black;
         }
     }
 }
