@@ -74,5 +74,87 @@
         .dot {
             background-color: black;
         }
+
+        .mini-choc {
+            position: absolute;
+            background: white;
+            border-radius: 100%;
+            opacity: 0;
+        }
+
+        .mc1 {
+            height: 2px;
+            width: 2px;
+            top: 6px;
+            left: 9px;
+        }
+
+        .mc2 {
+            height: 3px;
+            width: 3px;
+            top: 10px;
+            left: 6px;
+        }
+
+        .mc3 {
+            height: 2px;
+            width: 2px;
+            top: 11px;
+            left: 12px;
+        }
+
+        .mc4 {
+            height: 2px;
+            width: 2px;
+            top: 15px;
+            left: 8px;
+        }
+
+        .mc5 {
+            height: 2.5px;
+            width: 2.5px;
+            top: 16px;
+            left: 13px;
+        }
+
+        .mc6 {
+            height: 3px;
+            width: 3px;
+            top: 10px;
+            left: 6px;
+        }
+
+        .bite1 {
+            position: absolute;
+            background: white;
+            height: 6px;
+            width: 6px;
+            border-radius: 100%;
+            top: 0px;
+            left: 13px;
+            opacity: 0;
+        }
+
+        .bite2 {
+            position: absolute;
+            background: white;
+            height: 6px;
+            width: 6px;
+            border-radius: 100%;
+            top: 4px;
+            left: 16px;
+            opacity: 0;
+        }
+
+        .bite3 {
+            position: absolute;
+            background: white;
+            height: 6px;
+            width: 6px;
+            border-radius: 100%;
+            top: 7px;
+            left: 19px;
+            opacity: 0;
+        }
     }
 }
