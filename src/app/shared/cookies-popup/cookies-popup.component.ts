@@ -16,6 +16,11 @@ export class CookiesPopupComponent implements OnInit {
 
   ngOnInit(): void {
     this.popupAnimationIN.fromTo(".cookies-box", 1.5, { opacity: 0, y: "20px" }, { opacity: 1, y: "0px", ease: "power4.out" }, "+=0.5")
+    .to(".o-cookie", 0.5,  {backgroundColor: "black"})
+    .to(".mini-choc", 0.5, {opacity: 1})
+    .to(".bite1", 0.2, {opacity: 1})
+    .to(".bite2", 0.2, {opacity: 1})
+    .to(".bite3", 0.2, {opacity: 1}, '-=0.2')
   }
 
   acceptCookies() {
