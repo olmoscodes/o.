@@ -8,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'olmoscodes';
   cookiesConfig: boolean = false;
+  isPre: boolean = false;
 
   ngOnInit(): void {
     this.cookiesConfig = !sessionStorage.getItem('analytics-on') ? true : false;
+    this.isPre = /pre/.test(window.location.href)
   }
 }
