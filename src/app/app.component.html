@@ -1,3 +1,4 @@
 <app-notice *ngIf="!cookiesConfig"></app-notice>
 <app-navbar *ngIf="!cookiesConfig" [notice]="true"></app-navbar>
 <app-cookies-popup *ngIf="!!cookiesConfig"></app-cookies-popup>
+<app-intro *ngIf="!cookiesConfig"></app-intro>
