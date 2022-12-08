@@ -3,3 +3,4 @@
 <app-cookies-popup *ngIf="!!cookiesConfig"></app-cookies-popup>
 <app-intro *ngIf="!cookiesConfig"></app-intro>
 <router-outlet *ngIf="!cookiesConfig"></router-outlet>
+<div *ngIf="!isPre" class="under-construction">Starting from scratch</div>
