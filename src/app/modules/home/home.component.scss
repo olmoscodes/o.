@@ -1,0 +1,30 @@
+.section {
+    color: white;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .introduction {
+        display: flex;
+        font-family: 'Inter-Light';
+        font-size: 6vw;
+        align-items: center;
+        position: relative;
+
+        .text {
+            margin-left: 1.5vw;
+            font-family: 'Inter-SemiBoldItalic';
+        }
+
+        .typeLine {
+            height: 6vw;
+            width: 0.5vw;
+            background: white;
+            margin-left: 0.5vw;
+        }
+    }
+
+
+}

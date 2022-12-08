@@ -78,7 +78,6 @@ body {
     src: url('assets/fonts/Inter-Medium.ttf')  format('truetype');
 }
 
-
 @font-face {
     font-family: 'Inter-Regular';
     src: url('assets/fonts/Inter-Regular.ttf')  format('truetype');
@@ -90,36 +89,11 @@ body {
 }
 
 @font-face {
+    font-family: 'Inter-SemiBoldItalic';
+    src: url('assets/fonts/Inter-SemiBoldItalic.ttf')  format('truetype');
+}
+
+@font-face {
     font-family: 'Inter-Thin';
     src: url('assets/fonts/Inter-Thin.ttf')  format('truetype');
-}
-
-app-notice {
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    width: 100vw;
-}
-
-app-cookies-popup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-color: red;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100vw;
-    background-color: black;
-    z-index: 2;
-}
-
-app-intro {
-    position: fixed;
-    z-index: 3;
-    background-color: black;
-    height: 100%;
-    width: 100vw;
 }
