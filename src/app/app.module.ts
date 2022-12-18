@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { NoticeComponent } from './shared/notice/notice.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { NavbarComponent } from './shared/navbar/navbar.component';
+import { NavbarComponent } from './core/navbar/navbar.component';
 import { CookiesPopupComponent } from './shared/cookies-popup/cookies-popup.component';
 import { IntroComponent } from './shared/intro/intro.component';
+import { HomeComponent } from './modules/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { IntroComponent } from './shared/intro/intro.component';
     NoticeComponent,
     NavbarComponent,
     CookiesPopupComponent,
-    IntroComponent
+    IntroComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
