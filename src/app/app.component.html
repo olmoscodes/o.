@@ -1,6 +1,7 @@
 <app-notice *ngIf="!cookiesConfig"></app-notice>
-<app-navbar *ngIf="!cookiesConfig" [notice]="true"></app-navbar>
+<app-navbar *ngIf="!cookiesConfig" [notice]="true" [develop]="isPre"></app-navbar>
 <app-cookies-popup *ngIf="!!cookiesConfig"></app-cookies-popup>
 <app-intro *ngIf="!cookiesConfig"></app-intro>
 <router-outlet *ngIf="!cookiesConfig"></router-outlet>
-<div *ngIf="!isPre" class="under-construction">Starting from scratch</div>
+<div *ngIf="!isPre" class="under-construction">Portfolio under development</div>
+<div *ngIf="!isPre ? runCommingSoonAnimation() : ''"></div>

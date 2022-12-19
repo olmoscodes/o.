@@ -35,17 +35,39 @@ app-home {
 
 // Temporal under construction in PRODUCTION (master)
 
-.under-construction {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.448);
-    height: 100%;
-    width: 100%;
-    backdrop-filter: blur(6px);
-    color: white;
-    font-size: 19px;
-    top: 0;
+@media (max-width: 450px) {
+    .under-construction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.1411764706);
+        bottom: 25px;
+        left: 25px;
+        padding: 20px 0;
+        width: calc(100% - 40px);
+        border-radius: 33px;
+        font-size: 17px;
+    }
 }
+
+@media (min-width: 450px) {
+    .under-construction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.1411764706);
+        bottom: 25px;
+        left: 25px;
+        padding: 20px 40px;
+        max-width: calc(100% - 40px);
+        border-radius: 33px;
+        font-size: 17px;
+    }
+}
+
