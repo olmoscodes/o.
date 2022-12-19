@@ -3,7 +3,7 @@
         <div class="o"></div>
         <div class="dot"></div>
     </div>
-    <div class="hamburger-container" (click)="!isOpen ? openMenu() : closeMenu()">
+    <div class="hamburger-container" *ngIf="develop" (click)="!isOpen ? openMenu() : closeMenu()">
         <div class="l1 line"></div>
         <div class="l2 line"></div>
         <div class="l3 line"></div>
